@@ -2,12 +2,6 @@
     "version": "PRE-RLS 0.1",
     "configurations": [
         {
-            "command": "npm start",
-            "name": "Run npm start",
-            "request": "launch",
-            "type": "node-terminal"
-        },
-        {
             "name": "Python: Module",
             "type": "python",
             "request": "launch",
@@ -22,5 +16,8 @@
             "console": "integratedTerminal",
             "justMyCode": true
         }
+    ],
+    "python.analysis.extraPaths": [
+        "/path/to/tensorflow/site-packages"
     ]
 }
