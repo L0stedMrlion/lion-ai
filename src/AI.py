@@ -1,1 +1,2 @@
-import tensorflow as tf
+print("Lion AI - Starting up")
+print("Lion AI - Succesfully started!")
